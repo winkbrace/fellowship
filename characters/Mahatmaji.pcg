@@ -1,0 +1,228 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG Core Supplements
+VERSION:6.06.01
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:troubleshooting.htm.ftl
+POOLPOINTS:15
+POOLPOINTSAVAIL:15
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Mahatmaji
+TABNAME:
+PLAYERNAME:Mike McGrail
+HEIGHT:78
+WEIGHT:175
+AGE:52
+GENDER:Male
+HANDED:Right
+SKINCOLOR:Light Brown
+EYECOLOR:Brown
+HAIRCOLOR:Light Brown
+HAIRSTYLE:Short
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:Will worship Iomedae each day regardless of the consequences!!
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:Swamps &amp; Bogs
+INTERESTS:
+CATCHPHRASE:Be the defend of good and finder of lost children
+PORTRAIT:C&colon;\Users\mcgrai001\Documents\300px-Iomedae_holy_symbol.jpg
+PORTRAITTHUMBNAILRECT:0,0,300,300
+
+# Character Attributes
+STAT:STR|SCORE:12
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:12
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:15
+ALIGN:LG
+RACE:Half-Elf
+
+# Character Class(es)
+CLASS:Paladin|LEVEL:4|SKILLPOOL:0
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:5|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:9000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Elf-Raised]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
+SKILL:Perception|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:33|
+SKILL:Profession (Untrained)|OUTPUTORDER:34|
+SKILL:Ride|OUTPUTORDER:35|
+SKILL:Samurai Mount|OUTPUTORDER:36|
+SKILL:Sense Motive|OUTPUTORDER:37|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:39|
+SKILL:Stealth|OUTPUTORDER:42|
+SKILL:Survival|OUTPUTORDER:43|
+SKILL:Swim|OUTPUTORDER:44|
+SKILL:Untrained Charisma|OUTPUTORDER:45|
+SKILL:Untrained Dexterity|OUTPUTORDER:46|
+SKILL:Untrained Intelligence|OUTPUTORDER:47|
+SKILL:Untrained Strength|OUTPUTORDER:48|
+SKILL:Untrained Wisdom|OUTPUTORDER:49|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:31|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:40|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:41|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:50|
+SKILL:Use Magic Device|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Plantspeech (trees)
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Plantspeech (trees)|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Acrobatic|TYPE:General.ShadowBloodline|DESC:You are skilled at leaping, jumping, and flying.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Amateur Swashbuckler|TYPE:Combat|DESC:Though not a swashbuckler, you have and can use panache.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Use Magic Device,Use Magic Device|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Half-Elf Bonus Weapon|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Curve Blade (Elven)|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
+USERPOOL:Half-Elf Bonus Weapon|POOLPOINTS:0.0
+ABILITY:Half-Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Elf Racial Subtype ~ Elf-Raised|TYPE:Half-Elf Racial Subtype.SpecialQuality|DESC:These half-elves represent those embraced by their elven relatives, and raised with all of the traditional cultural training and education typical of most full-blooded elves. These half-elves have the ancestral arms and arcane training alternate racial traits.
+USERPOOL:Half-Elf Racial Subtype|POOLPOINTS:0.0
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Holy Guide ~ Favored Terrain ~ Mercy Replacement|APPLIEDTO:|TYPE:Holy Guide Class Feature.Internal.Mercy
+USERPOOL:Mercy|POOLPOINTS:0.0
+ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Fire|APPLIEDTO:|TYPE:PaladinFavoredEnergyResistance
+USERPOOL:Paladin Energy Resistance|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Acrobat|TYPE:Trait.BasicTrait.SocialTrait|DESC:Having trained from a young age, you're capable of amazing feats of daring. You gain a +1 bonus on Acrobatics checks, and you take only a -2 penalty instead of the normal -5 penalty when using the Climb skill to attempt an accelerated climb.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Patient Optimist|TYPE:Trait.ReligionTrait|DESC:You know that all things pass in time, and are used to having to repeat arguments multiple times to convince even the most stubborn believer. You gain a +2 trait bonus on Diplomacy checks to influence hostile or unfriendly creatures, and if you fail at such an attempt, you may retry it once.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun]
+WEAPONPROF:[WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Curve Blade (Elven)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte]
+WEAPONPROF:[WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:8.00
+EQUIPNAME:Curve Blade, Elven +1|OUTPUTORDER:0|COST:2380.0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Curve Blade (Elven)|DATA:NAME=Curve Blade, Elven +1$KEY=Curve Blade +1 (Elven)$EQMOD=STEEL.PLUS1W$COSTMOD=0.0]
+EQUIPNAME:Holy Text (Cheap)|OUTPUTORDER:0|COST:1|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Mithral Shirt|OUTPUTORDER:0|COST:1100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt$EQMOD=MITHRAL_ARMR_LT]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
+EQUIPNAME:Paladin's Kit|OUTPUTORDER:0|COST:11|WT:30.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Inflict Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Potion of Inflict Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Scroll (Zone of Truth)|OUTPUTORDER:0|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:0|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Iomedae|DEITYDOMAINS:[DOMAIN:Glory|DOMAIN:Good|DOMAIN:Law|DOMAIN:Sun|DOMAIN:War|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Day Subdomain|DOMAIN:Heroism Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Light Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:Goddess of valor, rulership, justice, honor|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:LG
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:&nl;Born out of wedlock and shunned by many ... Rasied in the elven fortress of Monogahela in the north of Avistan ... At an early age exposed to the holy text Acts of Iomedae ... A disciple of the 11 miracles that Iomedae performed during her mortal life ... Member of the Knights of Ozem, the military order devoted to spreading Iomedae's word ... Vigilant in rooting out and destroying evil ... Performer of daily obedience rituals in order to receive a divine blessing from Iomedae ... A beacon for allies within the chaos of battle
+CHARACTERDESC:
+CHARACTERCOMP:&nl;
+CHARACTERASSET:&nl;
+CHARACTERMAGIC:+1 Elven Curved Blade&nl;Mithral Shirt&nl;Paladin Kit&nl;Travelers Outfit&nl;Holy Text of Iomedae&nl;Wand of Cure Light Wounds&nl;Zone of Truth Scroll (x2)&nl;Potion of Cure Light Wounds (x2)&nl;Potion of Cure Moderate Wounds&nl;Potion of Inflict Light Wounds (x3)&nl;Potion of Inflict Moderate Wounds (x3)&nl;&nl;&nl;
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:SPEECH_PATTERN|REGION
+
