@@ -129,8 +129,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:31|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:40|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:41|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:50|
-SKILL:Use Magic Device|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:51|
+SKILL:Use Magic Device|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Plantspeech (trees)
@@ -180,18 +180,29 @@ WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Unde
 
 # Character Equipment
 MONEY:6.50
-EQUIPNAME:Curve Blade, Elven +1|OUTPUTORDER:0|COST:2380.0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Curve Blade (Elven)|DATA:NAME=Curve Blade, Elven +1$KEY=Curve Blade +1 (Elven)$EQMOD=STEEL.PLUS1W$COSTMOD=0.0]
-EQUIPNAME:Holy Text (Cheap)|OUTPUTORDER:0|COST:1|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Mithral Shirt|OUTPUTORDER:0|COST:1100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt$EQMOD=MITHRAL_ARMR_LT]
-EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
-EQUIPNAME:Paladin's Kit|OUTPUTORDER:0|COST:11|WT:30.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Inflict Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Potion of Inflict Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Potion of Mage Armor|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:6.0|NOTE:
-EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:0|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPNAME:Curve Blade, Elven +1|OUTPUTORDER:1|COST:2380.0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Curve Blade (Elven)|DATA:NAME=Curve Blade, Elven +1$KEY=Curve Blade +1 (Elven)$EQMOD=STEEL.PLUS1W$COSTMOD=0.0]
+EQUIPNAME:Holy Text (Cheap)|OUTPUTORDER:6|COST:1|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Mithral Shirt|OUTPUTORDER:3|COST:1100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt$EQMOD=MITHRAL_ARMR_LT]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$KEY=Outfit (Traveler_s)$COSTMOD=-1]
+EQUIPNAME:Paladin's Kit|OUTPUTORDER:5|COST:11|WT:30.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:7|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:8|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Inflict Light Wounds|OUTPUTORDER:9|COST:50|WT:0.0|QUANTITY:5.0|NOTE:
+EQUIPNAME:Potion of Inflict Moderate Wounds|OUTPUTORDER:10|COST:300|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Sleeves of Many Garments|OUTPUTORDER:2|COST:200|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:11|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.01|VALUE:Mithral Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.02|VALUE:Curve Blade, Elven +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.04|VALUE:Paladin's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Holy Text (Cheap)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.08|VALUE:Potion of Inflict Light Wounds|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.09|VALUE:Potion of Inflict Moderate Wounds|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Wrist|ID:0.1.10|VALUE:Sleeves of Many Garments|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Wand of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -205,11 +216,11 @@ DEITY:Iomedae|DEITYDOMAINS:[DOMAIN:Glory|DOMAIN:Good|DOMAIN:Law|DOMAIN:Sun|DOMAI
 SPELLBOOK:Class|TYPE:4
 
 # Character Description/Bio/History
-CHARACTERBIO:&nl;Born out of wedlock (mother an elven noble, father an adherer to the Krishnnan faith) ... Shunned by many ... Rasied in the elven fortress of Monogahela in the north of Avistan ... At an early age exposed to the holy text Acts of Iomedae ... A disciple of the 11 miracles that Iomedae performed during her mortal life ... Member of the Knights of Ozem, the military order devoted to spreading Iomedae's word ... Vigilant in rooting out and destroying evil ... Performer of daily obedience rituals in order to receive a divine blessing from Iomedae ... A beacon for allies within the chaos of battle&nl;&nl;Code of Mahatmaji&nl;I am a servant of Iomedae and channel her strength through my body. &nl;I will shine in her legion, and I will not tarnish her glory through baseless actions.&nl;My mission is to right wrongs and eliminate evil from the world. &nl;I live for the joy of righteous battle. I am the first into battle, and the last to leave it.&nl;I will not be taken prisoner by my free will. I will not surrender those under my command.&nl;I will never abandon a companion, though I will honor sacrifice freely given.&nl;I will guard the honor of my fellows, both in thought and deed, and I will have faith in them.&nl;When in doubt, I may force my enemies to surrender, but I am responsible for their lives.&nl;I will never refuse a challenge from an equal. I will give honor to worthy enemies, and contempt to the rest.&nl;I will protect the weak and innocent by eliminating sources of oppression.&nl;I will never associate with evil beings.&nl;I will suffer death before dishonor.&nl;I will be temperate in my actions and moderate in my behavior. I will strive to emulate Iomedae's perfection.&nl;&nl;
+CHARACTERBIO:&nl;Born out of wedlock (mother an elven noble, father an adherer to the Krishnnan faith) ... Shunned by many ... Rasied in the elven fortress of Monogahela in the north of Avistan ... At an early age exposed to the holy text Acts of Iomedae ... A disciple of the 11 miracles that Iomedae performed during her mortal life ... Member of the Knights of Ozem, the military order devoted to spreading Iomedae's word ... Vigilant in rooting out and destroying evil ... Performer of daily obedience rituals in order to receive a divine blessing from Iomedae ... A beacon for allies within the chaos of battle&nl;&nl;Code of Mahatmaji&nl;I am a servant of Iomedae and channel her strength through my body. &nl;I will shine in her legion, and I will not tarnish her glory through baseless actions.&nl;My mission is to right wrongs and eliminate evil from the world. &nl;I live for the joy of righteous battle. I am the first into battle, and the last to leave it.&nl;I will not be taken prisoner by my free will. I will not surrender those under my command.&nl;I will never abandon a companion, though I will honor sacrifice freely given.&nl;I will guard the honor of my fellows, both in thought and deed, and I will have faith in them.&nl;When in doubt, I may force my enemies to surrender, but I am responsible for their lives.&nl;I will never refuse a challenge from an equal. I will give honor to worthy enemies, and contempt to the rest.&nl;I will protect the weak and innocent by eliminating sources of oppression.&nl;I will never associate with evil beings.&nl;I will suffer death before dishonor.&nl;I will be temperate in my actions and moderate in my behavior. I will strive to emulate Iomedae's perfection.&nl;
 CHARACTERDESC:
 CHARACTERCOMP:&nl;
 CHARACTERASSET:&nl;
-CHARACTERMAGIC:+1 Elven Curved Blade&nl;Mithral Shirt&nl;Paladin Kit - Wooden Holy Symbol = Relic of Saint Lymirin (Eagle Headed)&nl;Travelers Outfit&nl;Holy Text of Iomedae&nl;Wand of Cure Light Wounds&nl;Potion of Cure Light Wounds (x2)&nl;Potion of Cure Moderate Wounds&nl;Potion of Inflict Light Wounds (x3)&nl;Potion of Inflict Moderate Wounds (x3)&nl;Potion of Mage Armor (x6)&nl;&nl;
+CHARACTERMAGIC:&nl;
 CHARACTERDMNOTES:
 
 # Kits
