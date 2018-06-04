@@ -45,7 +45,7 @@ PERSONALITYTRAIT2:
 SPEECHPATTERN:
 PHOBIAS:Swamps &amp; Bogs
 INTERESTS:
-CATCHPHRASE:Be the defend of good and finder of lost children
+CATCHPHRASE:Be the defender of good and finder of lost children
 PORTRAIT:C&colon;\Users\mcgrai001\Documents\300px-Iomedae_holy_symbol.jpg
 PORTRAITTHUMBNAILRECT:0,0,300,300
 
@@ -143,8 +143,8 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Pla
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Acrobatic|TYPE:General.ShadowBloodline|DESC:You are skilled at leaping, jumping, and flying.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Amateur Swashbuckler|TYPE:Combat|DESC:Though not a swashbuckler, you have and can use panache.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Elven Battle Training|TYPE:Combat|DESC:You have been specially trained to wield a variety of traditional elven weapons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Lay On Hands|APPLIEDTO:|TYPE:General|DESC:You can use your lay on hands ability more often.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
@@ -179,7 +179,7 @@ WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sw
 WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:8.00
+MONEY:6.50
 EQUIPNAME:Curve Blade, Elven +1|OUTPUTORDER:0|COST:2380.0|WT:7.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Curve Blade (Elven)|DATA:NAME=Curve Blade, Elven +1$KEY=Curve Blade +1 (Elven)$EQMOD=STEEL.PLUS1W$COSTMOD=0.0]
 EQUIPNAME:Holy Text (Cheap)|OUTPUTORDER:0|COST:1|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Mithral Shirt|OUTPUTORDER:0|COST:1100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt$EQMOD=MITHRAL_ARMR_LT]
@@ -189,7 +189,7 @@ EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:2.0|
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Potion of Inflict Light Wounds|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:3.0|NOTE:
 EQUIPNAME:Potion of Inflict Moderate Wounds|OUTPUTORDER:0|COST:300|WT:0.0|QUANTITY:3.0|NOTE:
-EQUIPNAME:Scroll (Zone of Truth)|OUTPUTORDER:0|COST:150|WT:0.01|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Mage Armor|OUTPUTORDER:0|COST:50|WT:0.0|QUANTITY:6.0|NOTE:
 EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:0|COST:750.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 CALCEQUIPSET:0.1
@@ -205,11 +205,11 @@ DEITY:Iomedae|DEITYDOMAINS:[DOMAIN:Glory|DOMAIN:Good|DOMAIN:Law|DOMAIN:Sun|DOMAI
 SPELLBOOK:Class|TYPE:4
 
 # Character Description/Bio/History
-CHARACTERBIO:&nl;Born out of wedlock and shunned by many ... Rasied in the elven fortress of Monogahela in the north of Avistan ... At an early age exposed to the holy text Acts of Iomedae ... A disciple of the 11 miracles that Iomedae performed during her mortal life ... Member of the Knights of Ozem, the military order devoted to spreading Iomedae's word ... Vigilant in rooting out and destroying evil ... Performer of daily obedience rituals in order to receive a divine blessing from Iomedae ... A beacon for allies within the chaos of battle
+CHARACTERBIO:&nl;Born out of wedlock (mother an elven noble, father an adherer to the Krishnnan faith) ... Shunned by many ... Rasied in the elven fortress of Monogahela in the north of Avistan ... At an early age exposed to the holy text Acts of Iomedae ... A disciple of the 11 miracles that Iomedae performed during her mortal life ... Member of the Knights of Ozem, the military order devoted to spreading Iomedae's word ... Vigilant in rooting out and destroying evil ... Performer of daily obedience rituals in order to receive a divine blessing from Iomedae ... A beacon for allies within the chaos of battle&nl;&nl;Code of Mahatmaji&nl;I am a servant of Iomedae and channel her strength through my body. &nl;I will shine in her legion, and I will not tarnish her glory through baseless actions.&nl;My mission is to right wrongs and eliminate evil from the world. &nl;I live for the joy of righteous battle. I am the first into battle, and the last to leave it.&nl;I will not be taken prisoner by my free will. I will not surrender those under my command.&nl;I will never abandon a companion, though I will honor sacrifice freely given.&nl;I will guard the honor of my fellows, both in thought and deed, and I will have faith in them.&nl;When in doubt, I may force my enemies to surrender, but I am responsible for their lives.&nl;I will never refuse a challenge from an equal. I will give honor to worthy enemies, and contempt to the rest.&nl;I will protect the weak and innocent by eliminating sources of oppression.&nl;I will never associate with evil beings.&nl;I will suffer death before dishonor.&nl;I will be temperate in my actions and moderate in my behavior. I will strive to emulate Iomedae's perfection.&nl;&nl;
 CHARACTERDESC:
 CHARACTERCOMP:&nl;
 CHARACTERASSET:&nl;
-CHARACTERMAGIC:+1 Elven Curved Blade&nl;Mithral Shirt&nl;Paladin Kit&nl;Travelers Outfit&nl;Holy Text of Iomedae&nl;Wand of Cure Light Wounds&nl;Zone of Truth Scroll (x2)&nl;Potion of Cure Light Wounds (x2)&nl;Potion of Cure Moderate Wounds&nl;Potion of Inflict Light Wounds (x3)&nl;Potion of Inflict Moderate Wounds (x3)&nl;&nl;&nl;
+CHARACTERMAGIC:+1 Elven Curved Blade&nl;Mithral Shirt&nl;Paladin Kit - Wooden Holy Symbol = Relic of Saint Lymirin (Eagle Headed)&nl;Travelers Outfit&nl;Holy Text of Iomedae&nl;Wand of Cure Light Wounds&nl;Potion of Cure Light Wounds (x2)&nl;Potion of Cure Moderate Wounds&nl;Potion of Inflict Light Wounds (x3)&nl;Potion of Inflict Moderate Wounds (x3)&nl;Potion of Mage Armor (x6)&nl;&nl;
 CHARACTERDMNOTES:
 
 # Kits
