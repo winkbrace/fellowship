@@ -1,0 +1,217 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder RPG Core Supplements
+VERSION:6.07.07
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:21
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:3
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Argrum Blackspear
+TABNAME:
+PLAYERNAME:Erwin
+HEIGHT:69
+WEIGHT:227
+AGE:42
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:13
+STAT:INT|SCORE:9
+STAT:WIS|SCORE:11
+STAT:CHA|SCORE:12
+ALIGN:CN
+RACE:Half-Orc
+
+# Character Class(es)
+CLASS:Rogue|LEVEL:4|SKILLPOOL:1|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Rogue=1|HITPOINTS:8|PRESTAT:STR=15|PRESTAT:DEX=5|PRESTAT:CON=3|PRESTAT:CHA=1|PRESTAT:WIS=1|PRESTAT:INT=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=2|HITPOINTS:2|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=3|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Rogue=4|HITPOINTS:6|PRESTAT:INT=-2|PRESTAT:CHA=1|PRESTAT:DEX=1|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:9000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Feral]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disable Device|OUTPUTORDER:17|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly|OUTPUTORDER:21|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:22|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:27|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:31|
+SKILL:Linguistics|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Rogue|RANKS:2.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Elven|ASSOCIATEDDATA:Dwarven
+SKILL:Perception|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:35|
+SKILL:Profession (Untrained)|OUTPUTORDER:36|
+SKILL:Ride|OUTPUTORDER:37|
+SKILL:Samurai Mount|OUTPUTORDER:38|
+SKILL:Sense Motive|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:40|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:41|
+SKILL:Sleight of Hand|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Rogue|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Rogue|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:46|
+SKILL:Swim|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Rogue|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:48|
+SKILL:Untrained Dexterity|OUTPUTORDER:49|
+SKILL:Untrained Intelligence|OUTPUTORDER:50|
+SKILL:Untrained Strength|OUTPUTORDER:51|
+SKILL:Untrained Wisdom|OUTPUTORDER:52|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:32|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:44|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:53|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Goblin|LANGUAGE:Orc
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Intelligence|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agile Maneuvers|TYPE:Combat.ProteanBloodline|DESC:You learned to use your quickness in place of brute force when performing combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alertness|TYPE:General.DeepEarthBloodline.DreamspunBloodline.KoboldBloodline.AccursedBloodline.CloakedWolfBonusFeat|DESC:You often notice things that others might miss.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Critical Confirmation Sneak Attack|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassRogue|DESC:Rogue&colon; Add +1/3 on critical hit confirmation rolls made while using sneak attack (maximum bonus of +5). This bonus does not stack with Critical Focus.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Rogue Talent|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassRogue|DESC:The human gains +1/6 of a new rogue talent.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sleight of Hand|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Orc Racial Subtype ~ Feral|TYPE:Half-Orc Racial Subtype.SpecialQuality|DESC:Half-orc children who are abandoned as infants or small children rarely survive in the wild, but a few manage to scrape out a meager existence as "wild children," tough enough to live but completely uncivilized. Feral half-orcs have the forest walker and toothy alternate racial traits.
+USERPOOL:Half-Orc Racial Subtype|POOLPOINTS:0.0
+ABILITY:Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Befuddling Strike|TYPE:RogueTalent.SpecialAttack.Extraordinary.AttackOption|DESC:When the rogue deals sneak attack damage against an opponent, that opponent takes a -2 penalty on attack rolls against the rogue for 1d4 rounds.
+ABILITY:Rogue Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rogue Talent ~ Combat Swipe|TYPE:RogueTalent.SpecialQuality|DESC:A rogue who selects this talent gains Improved Steal as a bonus feat.
+USERPOOL:Rogue Talent|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Arcane Temper|TYPE:Trait.BasicTrait.MagicTrait|DESC:You have quick reactions and fierce concentration. You gain a +1 trait bonus on concentration and initiative checks.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Hidden Hand|TYPE:Trait.BasicTrait.CombatTrait|DESC:Your concealed weapons strike fast and true. You gain a +1 trait bonus on Sleight of Hand checks made to conceal light weapons and a +1 trait bonus on attack rolls when making an attack with a light weapon during a surprise round.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Pliers (Tooth Fairy)|WEAPON:Quarterstaff|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Rock|WEAPON:Sap|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Skull|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Sword (Short)|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+
+# Character Equipment
+MONEY:385.50
+EQUIPNAME:Adamantine Dagger|OUTPUTORDER:1|COST:3002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Adamantine)|DATA:NAME=Adamantine Dagger$KEY=Dagger (Adamantine)$EQMOD=Material ~ Adamantine ~ Weapon]
+EQUIPNAME:Armor of Insults|OUTPUTORDER:5|COST:1175.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Armor of Insults|DATA:NAME=Armor of Insults$EQMOD=Material ~ Leather.Special Ability ~ +1 ~ Armor.Material ~ Steel]
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:2|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Half-Orc Disguise Kit|OUTPUTORDER:4|COST:75|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Oil of Daylight|OUTPUTORDER:6|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Softpaw Boots|OUTPUTORDER:3|COST:25|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Adamantine Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.04|VALUE:Armor of Insults|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.05|VALUE:Softpaw Boots|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Half-Orc Disguise Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Oil of Daylight|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Primary|ID:0.1.1|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Gorum|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Destruction|DOMAIN:Glory|DOMAIN:Strength|DOMAIN:War|DOMAIN:Blood Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Protean Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Resolve Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:God of strength, battle, weapons|DEITYFAVWEAP:[WEAPON:Greatsword]|DEITYALIGN:CN
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:0:1:1:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
