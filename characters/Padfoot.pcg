@@ -24,12 +24,12 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Padfoot
+CHARACTERNAME:Padfoot3
 TABNAME:
 PLAYERNAME:Jurian
 HEIGHT:0
 WEIGHT:0
-AGE:0
+AGE:11
 GENDER:Male
 HANDED:Right
 SKINCOLOR:
@@ -49,19 +49,19 @@ CATCHPHRASE:
 PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:15
-STAT:DEX|SCORE:12
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:11
 STAT:CON|SCORE:12
 STAT:INT|SCORE:10
-STAT:WIS|SCORE:12
+STAT:WIS|SCORE:10
 STAT:CHA|SCORE:12
-ALIGN:TN
-RACE:Wolf
+RACE:Companion (Wolf)
 
 # Character Class(es)
-CLASS:Animal|LEVEL:2|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Animal=1|HITPOINTS:7|SKILLSGAINED:1|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Animal=2|HITPOINTS:5|PRESTAT:STR=5|PRESTAT:DEX=2|PRESTAT:CON=2|PRESTAT:CHA=2|PRESTAT:WIS=2|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASS:Companion|LEVEL:3|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Companion=1|HITPOINTS:4|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=2|HITPOINTS:8|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Companion=3|HITPOINTS:5|PRESTAT:CHA=2|PRESTAT:STR=5|PRESTAT:CON=1|SKILLSGAINED:1|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:0
@@ -77,8 +77,9 @@ TEMPLATESAPPLIED:[NAME:Bite 1 (Medium)]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|CLASSBOUGHT:[CLASS:Animal|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|CLASSBOUGHT:[CLASS:Animal|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|CLASSBOUGHT:[CLASS:Companion|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 
@@ -87,8 +88,13 @@ SKILL:Stealth|CLASSBOUGHT:[CLASS:Animal|RANKS:1.0|COST:1|CLASSSKILL:Y]
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Stealthy|TYPE:General.DeepearthBloodline.SerpentineBloodline.ShadowBloodline.DruidShamanSerpent.RakshasaBloodline|DESC:You are good at avoiding attention and slipping out of bonds.
-USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Toughness|TYPE:AnimalCompanionFeat|DESC:You gain +%1 hit points.&pipe;max(3,TL)|DESC:You gain +1 hit points whenever you gain a Hit Die (such as when you gain a level).&pipe;PREHD&colon;MIN=3
+ABILITY:Animal Companion Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Companion Feat ~ Weapon Focus|APPLIEDTO:Bite|TYPE:AnimalCompanionFeat
+USERPOOL:Animal Companion Feat|POOLPOINTS:0.0
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Training ~ Combat Training|TYPE:AnimalTrick.AnimalTraining.General.SpecialQuality|DESC:An animal trained to bear a rider into combat knows the tricks attack, come, defend, down, guard, and heel. Training an animal for combat riding takes 6 weeks. You may also "upgrade" an animal trained for riding to one trained for combat by spending 3 weeks and making a successful DC 20 Handle Animal check. The new general purpose and tricks completely replace the animal's previous purpose and any tricks it once knew. Many horses and riding dogs are trained in this way.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Fetch|TYPE:AnimalTrick|DESC:The animal goes and gets something. If you do not point out a specific item, the animal fetches a random object.
+ABILITY:Animal Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Animal Trick ~ Track|TYPE:AnimalTrick|DESC:The animal tracks the scent presented to it. (This requires the animal to have the scent ability.)
+USERPOOL:Animal Trick|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Bite]
@@ -117,14 +123,15 @@ CHARACTERMAGIC:
 CHARACTERDMNOTES:
 
 # Kits
+KIT:Companion ~ Wolf
 
 # Character Master/Follower
-MASTER:Bronadir|TYPE:Follower|HITDICE:0|FILE:Bronadir_final2.pcg|ADJUSTMENT:0
+MASTER:Bronadir6|TYPE:Animal Companion|HITDICE:1|FILE:Bronadir6.pcg|ADJUSTMENT:0
 
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:0:0:0:0:0:0:0:0:0:0
+AGESET:1:0:0:0:0:0:0:0:0:0
 
 # Campaign History
 
