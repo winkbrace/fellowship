@@ -3,11 +3,11 @@ PCGVERSION:2.0
 # System Information
 CAMPAIGN:Pathfinder RPG Core Supplements
 VERSION:6.06.01
-ROLLMETHOD:2|EXPRESSION:Standard Fantasy
-PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
-POOLPOINTS:15
+POOLPOINTS:0
 POOLPOINTSAVAIL:15
 GAMEMODE:Pathfinder_RPG
 TABLABEL:0
@@ -29,7 +29,7 @@ TABNAME:
 PLAYERNAME:Donovan
 HEIGHT:0
 WEIGHT:0
-AGE:0
+AGE:93
 GENDER:Male
 HANDED:Right
 SKINCOLOR:
@@ -59,13 +59,13 @@ ALIGN:CN
 RACE:Drow Noble
 
 # Character Class(es)
-CLASS:Wizard|SUBCLASS:Evoker|LEVEL:6|SKILLPOOL:14
+CLASS:Wizard|SUBCLASS:Evoker|LEVEL:6|SKILLPOOL:0
 CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:6|SPECIALTIES:[SPECIALTY:Evocation]|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=2|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=3|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=4|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:7
-CLASSABILITIESLEVEL:Wizard=6|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:7
+CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=6|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:23000
@@ -84,12 +84,12 @@ REGION:None
 SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
-SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Wizard|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Craft (Untrained)|OUTPUTORDER:10|
 SKILL:Diplomacy|OUTPUTORDER:11|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
@@ -104,15 +104,15 @@ SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
 SKILL:Knowledge (Arcana)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Planes)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:32|
-SKILL:Linguistics|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Orc|ASSOCIATEDDATA:Giant
-SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Linguistics|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Orc|ASSOCIATEDDATA:Giant
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Wizard|RANKS:6.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:36|
 SKILL:Profession (Untrained)|OUTPUTORDER:37|
 SKILL:Ride|OUTPUTORDER:38|
@@ -120,10 +120,10 @@ SKILL:Samurai Mount|OUTPUTORDER:39|
 SKILL:Sense Motive|OUTPUTORDER:40|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:41|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:42|
-SKILL:Spellcraft|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Spellcraft|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Wizard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Survival|OUTPUTORDER:47|
-SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Swim|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Wizard|RANKS:5.0|COST:1|CLASSSKILL:N]
 SKILL:Untrained Charisma|OUTPUTORDER:49|
 SKILL:Untrained Dexterity|OUTPUTORDER:50|
 SKILL:Untrained Intelligence|OUTPUTORDER:51|
@@ -131,11 +131,11 @@ SKILL:Untrained Strength|OUTPUTORDER:52|
 SKILL:Untrained Wisdom|OUTPUTORDER:53|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:33|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:43|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
-SKILL:Use Magic Device|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:44|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
+SKILL:Use Magic Device|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
 LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Drow Sign Language|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Goblin|LANGUAGE:Orc|LANGUAGE:Undercommon
@@ -144,19 +144,47 @@ LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Drow Sign Language|L
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Drow Sign Language,Goblin,Draconic,Abyssal,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Drow Sign Language,Goblin,Draconic,Abyssal,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Drow Sign Language,Goblin,Draconic,Abyssal,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Drow Sign Language,Goblin,Draconic,Abyssal,Common|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Drow Sign Language,Goblin,Draconic,Abyssal,Common|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Arcane Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcane Bond ~ Bonded Object|TYPE:WizardClassFeatures.ArcaneBond.SpecialQuality|DESC:Objects that are the subject of an arcane bond must fall into one of the following categories&colon; amulet, ring, staff, wand, or weapon. These objects are always masterwork quality. Weapons acquired at 1st level are not made of any special material. If the object is an amulet or ring, it must be worn to have effect, while staves, wands, and weapons must be held in one hand. When attempting to cast a spell without your bonded object worn or in hand, you must make a concentration check or lose the spell (DC 20 + the spell's level). A ring or amulet occupies the ring or neck slot accordingly. A bonded object can be used once per day to cast any one spell that the wizard has in his spellbook and is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wizard, including casting time, duration, and other effects dependent on the wizard's level. This spell cannot be modified by metamagic feats or other abilities. The bonded object cannot be used to cast spells from the wizard's opposition schools (see arcane school). A wizard can add additional magic abilities to his bonded object as if he has the required item creation feats and if he meets the level prerequisites of the feat. For example, a wizard with a bonded dagger must be at least 5th level to add magic abilities to the dagger (see the Craft Magic Arms and Armor feat in Feats). If the bonded object is a wand, it loses its wand abilities when its last charge is consumed, but it is not destroyed and it retains all of its bonded object properties and can be used to craft a new wand. The magic properties of a bonded object, including any magic abilities added to the object, only function for the wizard who owns it. If a bonded object's owner dies, or the item is replaced, the object reverts to being an ordinary masterwork item of the appropriate type. If a bonded object is damaged, it is restored to full hit points the next time the wizard prepares his spells. If the object of an arcane bond is lost or destroyed, it can be replaced after 1 week in a special ritual that costs 200 gp per wizard level plus the cost of the masterwork item. This ritual takes 8 hours to complete. Items replaced in this way do not possess any of the additional enchantments of the previous bonded item. A wizard can designate an existing magic item as his bonded item. This functions in the same way as replacing a lost or destroyed item except that the new magic item retains its abilities while gaining the benefits and drawbacks of becoming a bonded item.
+USERPOOL:Arcane Bond|POOLPOINTS:0.0
+ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Metal Opposition School|TYPE:SpecialQuality.ClassSpecialization.WoodOpposedSchool.ArcaneOppositionSchool|DESC:You have chosen metal spells as an opposition school. Preparing a metal spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has a metal spell as a prerequisite.
+ABILITY:Arcane Opposition School|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wood Opposition School|TYPE:SpecialQuality.ClassSpecialization.EarthOpposedSchool.ArcaneOppositionSchool|DESC:You have chosen wood spells as an opposition school. Preparing a wood spell takes up two spell slots of the same level. You take a -4 penalty on any skill checks made when crafting a magic item that has a wood spell as a prerequisite.
+USERPOOL:Arcane Opposition School|POOLPOINTS:0.0
 ABILITY:Arcane Talent Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Arcane Talent ~ Detect Magic|TYPE:ArcaneTalentSelection
 USERPOOL:Arcane Talent Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Talent|TYPE:General|DESC:Magic is in your blood, and at your fingertips.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Experimental Spellcaster|APPLIEDTO:Wizard|TYPE:General|DESC:Learn some words of power
 USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wizard|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Arcane School Power Use|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard|DESC:Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Spellcraft,Bluff,Intimidate|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Wizard ~ Drow|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard|DESC:Wizard&colon; Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modif ier. The wizard adds +1/2 to the number of uses per day of that arcane school power.
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Wizard Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extend Spell|TYPE:Metamagic.CelestialBloodline.InfernalBloodline.VerdantBloodline|DESC:You can make your spells last twice as long.
+USERPOOL:Wizard Bonus Feat|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Club|WEAPON:Crossbow (Hand)|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Grapple|WEAPON:Quarterstaff|WEAPON:Rapier|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
 WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Sword (Short)|WEAPON:Unarmed Strike]
 
 # Character Equipment
-MONEY:16000
-EQUIPNAME:Spellbook (Wizard's/Blank)|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Wizard's/Blank)]
+MONEY:0.00
+EQUIPNAME:Amulet of Spell Cunning|OUTPUTORDER:1|COST:10000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Spellbook (Wizard's/Blank)|OUTPUTORDER:4|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Wizard's/Blank)]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.02|VALUE:Amulet of Spell Cunning|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.03|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.04|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.1|VALUE:Spellbook (Wizard's/Blank)|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
@@ -185,9 +213,10 @@ KIT:Wizard Spellbook
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:0:0:0:0:0:0:0:0:0:0
+AGESET:1:0:0:0:0:0:0:0:0:0
 
 # Campaign History
 
 # Suppressed Biography Fields
 SUPPRESSBIOFIELDS:
+
