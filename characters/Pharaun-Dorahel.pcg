@@ -3,8 +3,8 @@ PCGVERSION:2.0
 # System Information
 CAMPAIGN:Pathfinder RPG Core Supplements
 VERSION:6.06.01
-ROLLMETHOD:2|EXPRESSION:High Fantasy
-PURCHASEPOINTS:Y|TYPE:High Fantasy
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
@@ -59,16 +59,17 @@ ALIGN:CN
 RACE:Drow Noble
 
 # Character Class(es)
-CLASS:Wizard|SUBCLASS:Evoker|LEVEL:6|SKILLPOOL:0
+CLASS:Wizard|SUBCLASS:Evoker|LEVEL:7|SKILLPOOL:0
 CLASSABILITIESLEVEL:Wizard=1|HITPOINTS:6|SPECIALTIES:[SPECIALTY:Evocation]|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=2|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=3|HITPOINTS:4|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=4|HITPOINTS:1|PRESTAT:INT=1|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=5|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Wizard=6|HITPOINTS:1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Wizard=7|HITPOINTS:3|SKILLSGAINED:7|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:23000
+EXPERIENCE:35000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -81,10 +82,10 @@ TEMPLATESAPPLIED:[NAME:Wizard Spellbook]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
-SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Wizard|RANKS:6.0|COST:1|CLASSSKILL:N]
 SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
@@ -98,13 +99,13 @@ SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
 SKILL:Disguise|OUTPUTORDER:17|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
-SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Wizard|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Fly|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Wizard|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Wizard|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Wizard|RANKS:6.0|COST:1|CLASSSKILL:N]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
@@ -159,13 +160,14 @@ ABILITY:Arcane Talent Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Arcane Talent 
 USERPOOL:Arcane Talent Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Talent|TYPE:General|DESC:Magic is in your blood, and at your fingertips.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Casting|TYPE:General.AberrantBloodline.ArcaneBloodline.UndeadBloodline.SerpentineBloodline.KoboldBloodline.DragonShamanBonus.AccursedBloodline|DESC:You are adept at spellcasting when threatened or distracted.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Echoing Spell|TYPE:Metamagic|DESC:You have learned how to release most, but not all, of a spell's potential when you cast it.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Experimental Spellcaster|APPLIEDTO:Wizard|TYPE:General|DESC:Learn some words of power
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wizard|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Arcane School Power Use|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard|DESC:Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power.
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Spellcraft,Bluff,Intimidate|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Spellcraft,Bluff,Intimidate,Escape Artist|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Wizard ~ Drow|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassWizard|DESC:Wizard&colon; Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modif ier. The wizard adds +1/2 to the number of uses per day of that arcane school power.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Wizard Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extend Spell|TYPE:Metamagic.CelestialBloodline.InfernalBloodline.VerdantBloodline|DESC:You can make your spells last twice as long.
